@@ -1,0 +1,27 @@
+/** Rtl CSS */
+.rtl{
+    direction: rtl;
+}
+.rtl .sidebar .arrow{
+    float: left;
+}
+.rtl #side-menu li .label{
+    left: 25px;
+    right: auto;
+}
+.post-card-premium{
+    left: 0;
+    right: auto;
+    border-right: 1px solid #ddd;
+    border-left: none;
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]{
+    margin-left: 0;
+    position: relative;
+}
+.home-stats-box i{
+    padding-right: 0;
+    padding-left: 20px;
+}
+/** End RTL css */
